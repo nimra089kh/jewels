@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Protest+Guerrilla&family=Sofadi+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" type="image/x-icon" href="images/icon.png">
+<title>Home</title>
+</head>
+<body>
+ 
+  <!-- slider start -->
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid ">
+              <div class="d-flex justify-content-center">
+                <img src="images/logoo.png" class="img-fluid" alt="">
+               </div> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link fw-bold act" href="#">Home</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold act" href="#about">About</a>
+                      </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold act" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="gold.html">Gold</a></li>
+                      <li><hr class="dropdown-divider text-secondary"></li>
+                      <li><a class="dropdown-item" href="silver.html">Silver</a></li>
+                      <li><hr class="dropdown-divider text-secondary"></li>
+                      <li><a class="dropdown-item" href="oxidised.html">Oxidised</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold act" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                  </li>
+                 
+                </ul>
+                <form class="d-flex" onsubmit="searchFunction(event)">
+                  <input class="form-control me-2 fw-bold" type="search" id="searchInput" placeholder="Search" >
+                  <button class="btn btn-dark custom-hover fw-bold" type="submit">Search</button>
+                </form>
+                  <a href="login.html"><button class="btn fw-bold ms-4"><i class="fa fa-user" aria-hidden="true"></i></button></a>
+                 <a href="like.html"> <button class="btn fw-bold" type="submit"><i class="fa fa-heart" aria-hidden="true"></i></button></a>
+                <a href="cart.html">  <button class="btn fw-bold" type="submit"> <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button></a>
+    
+               
+              </div>
+            </div>
+          </nav>
+               <!-- navbar end -->
+    
+        <div id="carouselExampleSlidesOnly" class="carousel slide sliderr" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slider/1.jpg" class="d-block w-100" alt="..." height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/2.jpg" class="d-block w-100" alt="..." height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/3.jpg" class="d-block w-100" alt="..." height="500px">
+              </div>
+            </div>
+          </div>
+          <!-- slider end -->
+           <!-- content start -->
+<div class="container-fluid ">
+    <h1 class="text-center mt-4 mb-4">Embrace the Quirks of Elegance</h1>
+    <!-- cards start -->
+  <div class="container mb-4">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+      <div class="col">
+        <a href="gold.html">
+          <div class="card h-100">
+            <img src="images/gold.jpg" class="card-img-top card-image" alt="Gold jewelry">
+            <div class="card-body text-center card-info">
+              <h5 class="card-title">GOLD</h5>
+              <p class="card-text">Explore the latest trends in jewellery designs of Gold</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="silver.html">
+          <div class="card h-100">
+            <img src="images/silver.jpg" class="card-img-top card-image" alt="Silver jewelry">
+            <div class="card-body text-center card-info">
+              <h5 class="card-title">SILVER</h5>
+              <p class="card-text">We have an extensive collection of silver rings, earrings, bracelets, and more.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="oxidised.html">
+          <div class="card h-100">
+            <img src="images/oxidised.jpg" class="card-img-top card-image" alt="Oxidized jewelry">
+            <div class="card-body text-center card-info">
+              <h5 class="card-title">OXIDISED</h5>
+              <p class="card-text">Explore our unique collection of Designer and Tribal looks in Oxidized Jewelry.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- cards end --> 
+     <div class="container-fluid parallax mb-4 text-center pt-4 mt-5">
+      <h4 class="text-white fw-bold pp"> Welcome to a world where elegance meets artistry! At JEWELS, we believe that every piece of jewelry tells a story—whether it’s a sparkling necklace that captures the light or a delicate bracelet that whispers of timeless beauty. Crafted with love and precision, our unique collections are designed to elevate your style and celebrate life’s special moments. Discover the perfect piece to express your individuality and let your sparkle shine!</h4>
+     </div>
+  </div>
+  
+  <!-- about start -->
+  <div class="container" id="about">
+    <h1 class="text-center mt-4 mb-4">Get to Know Us More</h1>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <img src="images/caesar-akbar-pdPb--Q_vMs-unsplash.jpg" alt="Beautiful gemstone jewelry display" class="img-fluid rounded-pill img">
+      </div>
+      <div class="col-md-6 mb-3 d-flex align-items-center">
+        <p>Founded by JEWELS, a visionary with a deep-rooted love for gemstones and artistry, our journey began with a simple dream: to transform the ordinary into the extraordinary. Each piece of jewellery we create tells a story—whether it's an engagement ring that marks the beginning of a new chapter or a delicate necklace that captures the essence of personal style.</p>
+      </div>
+    </div>
+  </div>
+  <!-- about end -->
+   <!-- testimonials start -->
+ <h1 class="text-center mt-3">Testimonials</h1>
+ <div class="container mt-3 mb-5">
+   <div class="testimonials d-flex flex-wrap justify-content-center pt-4">
+
+ </div>
+</div>
+<!-- testimonials end -->
+ 
+<!-- contact start -->
+  <div class="container">
+    <h1 class="text-center mt-4 mb-4" id="contact">Contact Us</h1>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form>
+                <div class="mb-3 form-group mt-4">
+                    <input type="text" class="form-control" placeholder=" " id="firstName" required>
+                    <label for="firstName" class="form-label">First Name</label>
+                </div>
+                <div class="mb-3 form-group">
+                    <input type="text" class="form-control" placeholder=" " id="lastName" required>
+                    <label for="lastName" class="form-label">Last Name</label>
+                </div>
+                <div class="mb-3 form-group">
+                    <input type="email" class="form-control" placeholder=" " id="email" required>
+                    <label for="email" class="form-label">Email address</label>
+                </div>
+                <div class="mb-3 form-group">
+                    <input type="tel" class="form-control" placeholder=" " id="contact" required>
+                    <label for="contact" class="form-label">Contact</label>
+                </div>
+                <div class="mb-3 form-group">
+                    <textarea class="form-control" placeholder=" " id="feedback" required></textarea>
+                    <label for="feedback" class="form-label">Feedback</label>
+                </div>
+                <button type="submit" class="btn btn-dark fw-bold" onclick="submitt()" >Submit</button>
+            </form>
+        </div>
+
+        <!-- Map Column -->
+        <div class="col-12 col-md-6 mt-3">
+            <div id="map" class="">
+                <div class="mapswrapper">
+                    <iframe width="100%" height="350" allowfullscreen
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=New%20York&zoom=10&maptype=roadmap">
+                    </iframe>
+              
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+         <!-- contact end -->
+          <button onclick="scrollToTop()" id="backToTopBtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+         <!-- footer start -->
+  <footer class="background mt-4">
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logof.png" class="logoo img-fluid img" alt="Logo">
+            </div>
+            <div class="col-7">
+                <div class="row ">
+                    <div class="col-3 ms-4 text-center mt-3">
+                        <h6 class=" text-secondary fw-bold">Links</h6>
+                        <nav>
+                            <a href="index.html" class="ud"><p>Home</p></a>
+                            <a href="about.html" class="ud"><p>About</p></a>
+                            <a href="product.html" class="ud"><p>Products</p></a>
+                            <a href="contact.html" class="ud"><p>Contact</p></a>
+                        </nav>
+                    </div>
+                    <div class="col-4 ms-3 justify-content-center text-center">
+                        <h6 class=" text-secondary fw-bold mt-3">Contact</h6>
+                      <a href=""><p class="ud">jewel@gmail.com</p></a>
+                        <a href="tel:+923454533" class="ud"><p>+923454533</p></a>
+                        <h6 class=" text-secondary fw-bold">Services</h6>
+                        <p class="ud">Delivery 24/7</p>
+          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+<script src="index.js"></script>
+
+<script>
+  function submitt(){
+  event.preventDefault();
+
+  var fname=document.getElementById("firstName").value;
+  var lname=document.getElementById("lastName").value;
+  var email=document.getElementById("email").value;
+  var contact=document.getElementById("contact").value;
+  var feedback=document.getElementById("feedback").value;
+
+  if (!fname && !lname && !email && !contact && !feedback) {
+    alert("Input field empty!!")}
+     else {
+        alert('Thankyou for you feedback!') }
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

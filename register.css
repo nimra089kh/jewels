@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display SC", serif;
+}
+
+.playfair-display-sc-regular {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+  .playfair-display-sc-bold {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+  .playfair-display-sc-black {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+  .playfair-display-sc-regular-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .playfair-display-sc-bold-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .playfair-display-sc-black-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    font-style: italic;
+  }
+body{
+background-image: url(images/back.jpg);
+background-size: cover;
+
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: black;
+  }
+  
+  input:focus + .form-label, 
+  input:not(:placeholder-shown) + .form-label, 
+  textarea:focus + .form-label, 
+  textarea:not(:placeholder-shown) + .form-label {
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    color: black;
+    padding: 0 5px;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #474747;
+    font-size: 16px;
+    transition: 0.3s ease all;
+    pointer-events: none;
+  }
+  
+  textarea {
+    min-height: 120px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    opacity: 0;
+  }
+  /* From Uiverse.io by iZOXVL */ 
+.boton-elegante {
+    padding: 5px 20px;
+    border: 2px solid #2c2c2c;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    height: 40px;
+   
+  }
+  
+  .boton-elegante::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .boton-elegante:hover::after {
+    transform: scale(4);
+  }
+  
+  .boton-elegante:hover {
+    border-color: #666666;
+    background: #292929;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-box {
+    right: 30%;
+    box-shadow: 20px 20px #46454542;
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid #4e4d4d;
+    border-radius: 20px;
+    backdrop-filter: blur(15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box h2 {
+    color: #080808;
+    text-align: center;
+    
+  }
+  
+  .form-box .input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #4e4d4d;
+  
+  }
+  
+  .form-box .input-box input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #524f52;
+    font-size: 16px;
+  
+  }
+  .container {
+    position: relative; 
+    text-align: center; 
+}
+.logo {
+    display: block;
+    width: 60%; 
+    height: auto; 
+    
+}
+
+.caption {
+    position: absolute; 
+    bottom: 15%;
+    left: 52%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    font-size: clamp(16px, 2vw, 25px);
+    color: #d8a590;
+    font-weight: bolder;
+    text-shadow:
+        -1px -1px 0 rgba(0, 0, 0, 0.637),  
+        1px -1px 0 rgba(0, 0, 0, 0.637),  
+        -1px 1px 0 rgba(0, 0, 0, 0.637),   
+        1px 1px 0 rgba(0, 0, 0, 0.637);   
+}
+
+    
+    
+    .group {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .group span {
+        color: rgb(31, 30, 30);
+        position: relative;
+        top: 0px;
+        text-decoration: none;
+        
+
+      }
+      .group span a{
+        font-weight: bolder;
+        color: black;
+        position: relative;
+        text-decoration: none;
+
+      }
+      .group span a:hover{
+        text-decoration: underline;
+        
+      
+      }
+      
+      .group a:focus {
+        text-decoration: underline;
+      }
+      /* @media (max-width: 768px) {
+        .form-box {
+          right: 40%;}
+          .side {
+            right: 15%;
+           
+        }
+        .caption{
+          bottom: 18%;
+        }
+         
+      }
+       @media (max-width: 500px) {
+       
+        .caption{
+          bottom: 18%;
+        }
+        .form-box{
+          width: 150%;
+          right: 45%;
+        }
+       form{
+        width: 80%;
+       }
+       .input-box{
+        width: 100px;
+       }
+    }  */
+    @media (max-width: 768px) {
+      .form-box {
+          width: 90%; /* Make the form-box wider */
+          right: auto;
+          margin: 0 auto; /* Center on smaller screens */
+          right: 40%;
+          padding: 10px;
+        
+        }
+          .side {
+            right: 15%;
+           
+        }
+      
+  
+      .form-box .input-box {
+          width: 100%; /* Use full width for inputs */
+      }
+  }
+  
+  @media (max-width: 500px) {
+      .form-box {
+        right: 40%;
+          width: 250%; /* Full width for mobile */
+          padding: 10px;
+          height: 150%;
+      }
+  .caption{
+    bottom: 18%;
+  }
+     
+  }
+  

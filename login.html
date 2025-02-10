@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+<link rel="stylesheet" href="form.css">
+<title>LOGIN</title>
+</head>
+<body>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-6">
+            <div class="container">
+                <div class="form-box">
+                    <form action="" class="text-center">
+                        <h2 class="fw-bold">LOGIN</h2>
+                        <form>
+                            <div class="mb-3 form-group input-box">
+                              <input type="name" class="form-control" placeholder=" " id="uname" required>
+                              <label for="name" class="form-label">Username</label>
+                            </div>
+                            <div class="mb-3 form-group input-box">
+                              <input type="password" class="form-control" placeholder=" "id="upass" required>
+                              <label for="contact" class="form-label">Password</label>
+                            </div>
+                          
+                            <a href="index.html"><button type="submit" class="boton-elegante fw-bold mb-4" onclick="login(event)">Login</button></a>
+                            <div class="group text-center">
+                                <span>WANT TO CREATE AN ACCOUNT? <a href="register.html">REGISTER</a></span>
+                                 </div>
+                                
+                                    <!-- <h6 class="text-center mt-3 mb-3">OR</h6> -->
+                                    <div class="separator">
+                                        <hr class="line">
+                                        <span>Or</span>
+                                        <hr class="line">
+                                      </div>
+                                     
+                            <div id="g_id_onload"
+                                    data-client_id="341816634029-2vr10u1ggpide1sen2eneov5eejmh9bq.apps.googleusercontent.com"
+                                     data-callback="handleCredentialResponse"
+                                     data-auto_prompt="false">
+                                </div>
+                                
+                                <div class="g_id_signin api" 
+                                     data-type="standard"
+                                     data-size="large"
+                                     data-theme="outline"
+                                     data-text="sign_in_with"
+                                     data-shape="rectangular"
+                                     data-logo_alignment="left">
+                                </div>
+                               
+
+                          </form>
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+        <div class="col-6 ">
+            <div class="container side">
+                <img src="images/logof.png" alt="Jewellery Logo" class="logo">
+                <p class="caption">Make Your jewellery shopping an experience for life</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function login(event){
+     event.preventDefault();
+
+     var name=document.getElementById("uname").value;
+     var pass=document.getElementById("upass").value;
+
+    var uname= localStorage.getItem("myname",name);
+    var upass= localStorage.getItem("mypassword",pass);
+
+    if(name==uname && pass==upass)
+    {
+     alert("login successfully");
+     window.location.href="index.html";
+    }
+
+    else{
+     alert("invalid username or password");
+    }
+}
+
+</script>
+
+<script>
+    function handleCredentialResponse(response) {
+      // This is where you handle the Google token/credential
+      const token = response.credential;
+      console.log('Google Token: ', token);
+  
+      // Optionally decode the token to get user information (e.g., name, email)
+      const userObject = jwt_decode(token);
+      console.log('User Information: ', userObject);
+  
+      // Redirect the user to the homepage (or any other page)
+      window.location.href = "index.html"; // Change "/home" to your homepage URL
+    }
+  </script>
+  
+  <!-- Optional: Include JWT decode library for decoding the token -->
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+  
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

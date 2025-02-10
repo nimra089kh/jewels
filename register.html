@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="register.css">
+<link rel="icon" type="image/x-icon" href="images/icon.png">
+<title>Register</title>
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-6">
+                <div class="container side">
+                    <img src="images/logof.png" alt="Jewellery Logo" class="logo">
+                    <p class="caption">Make Your jewellery shopping an experience for life</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container">
+                    <div class="form-box ">
+                        <form action="" class="text-center">
+                            <h2 class="fw-bold">REGISTER</h2>
+                            <form>
+                                <div class="mb-3 form-group mt-4 input-box">
+                                    <input type="text" class="form-control" placeholder=" "  id="uname" required>
+                                    <label for="firstName" class="form-label">User Name</label>
+                                  </div>
+                                <div class="mb-3 form-group input-box">
+                                  <input type="email" class="form-control" placeholder=" "  id="uemail" required>
+                                  <label for="email" class="form-label">Email address</label>
+                                </div>
+                                <div class="mb-3 form-group input-box">
+                                    <input type="password" class="form-control" placeholder=" "id="upass" required>
+                                    <label for="lastName" class="form-label">Password</label>
+                                  </div>
+                                <div class="mb-3 form-group input-box">
+                                  <input type="password" class="form-control" placeholder=" " id="upassword" required>
+                                  <label for="contact" class="form-label">Confirm Password</label>
+                                </div>
+                                <button type="submit" class="boton-elegante fw-bold mb-4" value="Register" onclick="register(event)">Register</button>
+                                <div class="group text-center">
+                                    <span>ALREADY HAVE AN ACCOUNT? <a href="login.html">LOGIN</a></span>
+                                     </div>
+                              </form>
+                        </form>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function register(event){
+            event.preventDefault();
+
+            var name=document.getElementById("uname").value;
+            var email=document.getElementById("uemail").value;
+            var pass=document.getElementById("upass").value;
+            var passw=document.getElementById("upassword").value;
+
+
+
+             if(name == null || name == "", email == null || email == "", pass == null || pass == "", passw == null || passw == ""){
+             alert("Input field empty!!")
+             }
+            //dom
+
+
+            //to store values in local storage
+            else{
+            localStorage.setItem("myname",name);
+            localStorage.setItem("myemail",email);
+            localStorage.setItem("mypassword",pass);
+            localStorage.setItem("mypassword",passw);
+
+            alert("register successfully");
+
+            window.location.href="login.html";
+            }
+        }
+    </script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

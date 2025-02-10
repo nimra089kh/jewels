@@ -1,0 +1,942 @@
+{"testimonials":[
+   {
+      "image":"images/testimonials/rev1.png" ,
+      "name": "Customer 1",
+      "stars": 3,
+      "quote": "I’m in love with my new necklace! The craftsmanship is impeccable, and the sparkle is just stunning. It’s my new favorite piece and I’ve already received so many compliments!"
+    },
+    {
+      "image": "images/testimonials/rev2.png",
+      "name": "Customer 2",
+      "stars": 3,
+      "quote": "The bracelet I ordered is lovely, but I wish the clasp was a bit sturdier. Overall, I’m still pleased with my purchase, and the piece looks fantastic with my outfits."
+    },
+    {
+      "image": "images/testimonials/rev3.png",
+      "name": "Customer 3",
+      "stars": 4,
+      "quote": "Stunning! I’ve never seen such beautifully crafted earrings. The design is elegant, and they add a touch of luxury to every outfit. I can’t wait to buy more!"
+    },
+    {
+      "image": "images/testimonials/rev4.png",
+      "name": "Customer 4",
+      "stars": 5,
+      "quote": "Absolutely love it! The design is beautiful, and it is perfect.!"
+    },
+    {
+      "image": "images/testimonials/rev5.png",
+      "name": "Customer 5",
+      "stars": 2,
+      "quote": "The ring I purchased is absolutely gorgeous, but the sizing was a bit off. Thankfully, the team was very responsive and helped me with a quick exchange. I’ll definitely buy from them again."
+    },
+    {
+      "image": "images/testimonials/rev6.png",
+      "name": "Customer 6",
+      "stars": 4,
+      "quote": "Beautiful jewelry, quick shipping, and excellent customer support. I’m so happy with my purchase!"
+    },
+    {
+      "image": "images/testimonials/rev7.png",
+      "name": "Customer 7",
+      "stars": 3,
+      "quote": "The necklace is beautiful, but I was expecting it to be a little more delicate based on the pictures. It's a bit bulkier than I thought. The quality is good, but not the wow factor I was hoping for."
+    },
+    {
+      "image": "images/testimonials/rev8.png",
+      "name": "Customer 8",
+      "stars": 4,
+      "quote": "I appreciate that this brand uses recycled materials in their jewelry. As someone who cares about sustainability, this bracelet fits perfectly with my values, and it looks fantastic too!"
+    }
+  ],
+  "goldecards":[
+    {
+      "id" : 1,
+      "title": " Gold Earing 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/earing/g1.png",
+      "liked": false
+    },
+    {
+      "id" : 2,
+      "title": "Gold Earing 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/earing/g2.png",
+      "liked": true
+    },
+    {
+      "id" : 3,
+      "title": "Gold Earing 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/earing/g3.png",
+      "liked": false
+    },
+    {
+      "id" : 4,
+      "title": "Gold Earing 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/earing/g4.png",
+      "liked": true
+    },
+    {
+      "id" : 5,
+      "title": "Gold Earing 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/earing/g5.png",
+      "liked": false
+    },
+    {
+      "id" : 6,
+      "title": "Gold Earing 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/earing/g6.png",
+      "liked": true
+    },
+    {
+      "id" : 7,
+      "title": "Gold Earing 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/earing/g7.png",
+      "liked": false
+    },
+    {
+      "id" : 8,
+      "title": "Gold Earing 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/earing/g8.png",
+      "liked": true
+    },
+    {
+      "id" : 9,
+      "title": "Gold Earing 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/earing/g9.png",
+      "liked": true
+    }
+  ],
+  "goldncards":[
+    {
+      "id" : 10,
+      "title": "Gold Necklace 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/necklace/n1.png",
+      "liked": false
+    },
+    {
+      "id" : 11,
+      "title": "Gold Necklace 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/necklace/n2.png",
+      "liked": true
+    },
+    {
+      "id" : 12,
+      "title": "Gold Necklace 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/necklace/n3.png",
+      "liked": false
+    },
+    {
+      "id" : 13,
+      "title": "Gold Necklace 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/necklace/n4.png",
+      "liked": true
+    },
+    {
+      "id" : 14,
+      "title": "Gold Necklace 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/necklace/n5.png",
+      "liked": false
+    },
+    {
+      "id" : 15,
+      "title": "Gold Necklace 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/necklace/n6.png",
+      "liked": true
+    },
+    {
+      "id" : 16,
+      "title": "Gold Necklace 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/necklace/n7.png",
+      "liked": false
+    },
+    {
+      "id" : 17,
+      "title": "Gold Necklace 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/necklace/n8.png",
+      "liked": true
+    },
+    {
+      "id" : 18,
+      "title": "Gold Necklace 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/necklace/n9.png",
+      "liked": true
+    }
+  ],
+  "goldrcards":[
+    {
+      "id" : 19,
+      "title": "Gold Ring 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/ring/r1.png",
+      "liked": false
+    },
+    {
+      "id" : 20,
+      "title": "Gold Ring 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/ring/r2.png",
+      "liked": true
+    },
+    {
+      "id" : 21,
+      "title": "Gold Ring 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/ring/r3.png",
+      "liked": false
+    },
+    {
+      "id" : 22,
+      "title": "Gold Ring 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/ring/r4.png",
+      "liked": true
+    },
+    {
+      "id" : 23,
+      "title": "Ring 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/ring/r5.png",
+      "liked": false
+    },
+    {
+      "id" : 24,
+      "title": "Gold Ring 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/ring/r6.png",
+      "liked": true
+    },
+    {
+      "id" : 25,
+      "title": "Gold Ring 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/ring/r7.png",
+      "liked": false
+    },
+    {
+      "id" : 26,
+      "title": "Gold Ring 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/ring/r8.png",
+      "liked": true
+    },
+    {
+      "id" : 27,
+      "title": "Gold Ring 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/ring/r9.png",
+      "liked": true
+    }
+  ],
+  "goldbcards":[
+    {
+      "id" : 28,
+      "title": "Gold Bracelet 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/bracelet/b1.png",
+      "liked": false
+    },
+    {
+      "id" : 29,
+      "title": "Gold Bracelet 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/bracelet/b2.png",
+      "liked": true
+    },
+    {
+      "id" : 30,
+      "title": "Gold Bracelet 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/bracelet/b3.png",
+      "liked": false
+    },
+    {
+      "id" : 31,
+      "title": "Gold Bracelet 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/bracelet/b4.png",
+      "liked": true
+    },
+    {
+      "id" : 32,
+      "title": "Gold Bracelet 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/gold/bracelet/b5.png",
+      "liked": false
+    },
+    {
+      "id" : 33,
+      "title": "Gold Bracelet 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/gold/bracelet/b6.png",
+      "liked": true
+    },
+    {
+      "id" : 34,
+      "title": "Gold Bracelet 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/gold/bracelet/b7.png",
+      "liked": false
+    },
+    {
+      "id" : 35,
+      "title": "Gold Bracelet 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/bracelet/b8.png",
+      "liked": true
+    },
+    {
+      "id" : 36,
+      "title": "Gold Bracelet 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/gold/bracelet/b9.png",
+      "liked": true
+    }
+  ]
+  ,
+  "silverecards":[
+    {
+      "id" : 37,
+      "title": "Silver Earing 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/earing/se1.png",
+      "liked": false
+    },
+    {
+      "id" : 38,
+      "title": "Silver Earing 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/earing/se2.png",
+      "liked": true
+    },
+    {
+      "id" : 39,
+      "title": "Silver Earing 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/earing/se3.png",
+      "liked": false
+    },
+    {
+      "id" : 40,
+      "title": "Silver Earing 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/earing/se4.png",
+      "liked": true
+    },
+    {
+      "id" : 41,
+      "title": "Silver Earing 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/earing/se5.png",
+      "liked": false
+    },
+    {
+      "id" : 42,
+      "title": "Silver Earing 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/earing/se6.png",
+      "liked": true
+    },
+    {
+      "id" : 43,
+      "title": "Silver Earing 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/earing/se7.png",
+      "liked": false
+    },
+    {
+      "id" : 44,
+      "title": "Silver Earing 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/earing/se8.png",
+      "liked": true
+    },
+    {
+      "id" : 45,
+      "title": "Silver Earing 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/earing/se9.png",
+      "liked": true
+    }
+  ],
+  "silverncards":[
+    {
+      "id" : 46,
+      "title": "Silver Necklace 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/necklace/sn1.png",
+      "liked": false
+    },
+    {
+      "id" : 47,
+      "title": "Silver Necklace 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/necklace/sn2.png",
+      "liked": true
+    },
+    {
+      "id" : 48,
+      "title": "Silver Necklace 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/necklace/sn3.png",
+      "liked": false
+    },
+    {
+      "id" : 49,
+      "title": "Silver Necklace 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/necklace/sn4.png",
+      "liked": true
+    },
+    {
+      "id" : 50,
+      "title": "Silver Necklace 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/necklace/sn5.png",
+      "liked": false
+    },
+    {
+      "id" : 51,
+      "title": "Silver Necklace 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/necklace/sn6.png",
+      "liked": true
+    },
+    {
+      "id" : 52,
+      "title": "Silver Necklace 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/necklace/sn7.png",
+      "liked": false
+    },
+    {
+      "id" : 53,
+      "title": "Silver Necklace 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/necklace/sn8.png",
+      "liked": true
+    },
+    {
+      "id" : 54,
+      "title": "Silver Necklace 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/necklace/sn9.png",
+      "liked": true
+    }
+  ],
+  "silverrcards":[
+    {
+      "id" : 55,
+      "title": "Silver Ring 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/ring/sr1.png",
+      "liked": false
+    },
+    {
+      "id" : 56,
+      "title": "Silver Ring 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/ring/sr2.png",
+      "liked": true
+    },
+    {
+      "id" : 57,
+      "title": "Silver Ring 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/ring/sr3.png",
+      "liked": false
+    },
+    {
+      "id" : 58,
+      "title": "Silver Ring 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/ring/sr4.png",
+      "liked": true
+    },
+    {
+      "id" : 59,
+      "title": "Silver Ring 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/ring/sr5.png",
+      "liked": false
+    },
+    {
+      "id" : 60,
+      "title": "Silver Ring 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/ring/sr6.png",
+      "liked": true
+    },
+    {
+      "id" : 61,
+      "title": "Silver Ring 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/ring/sr7.png",
+      "liked": false
+    },
+    {
+      "id" : 62,
+      "title": "Silver Ring 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/ring/sr8.png",
+      "liked": true
+    },
+    {
+      "id" : 63,
+      "title": "Silver Ring 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/ring/sr9.png",
+      "liked": true
+    }
+  ],
+  "silverbcards":[
+    {
+      "id" : 64,
+      "title": "Silver Bracelet 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/bracelet/sb1.png",
+      "liked": false
+    },
+    {
+      "id" : 65,
+      "title": "Silver Bracelet 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/bracelet/sb2.png",
+      "liked": true
+    },
+    {
+      "id" : 66,
+      "title": "Silver Bracelet 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/bracelet/sb3.png",
+      "liked": false
+    },
+    {
+      "id" : 67,
+      "title": "Silver Bracelet 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/bracelet/sb4.png",
+      "liked": true
+    },
+    {
+      "id" : 68,
+      "title": "Silver Bracelet 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/silver/bracelet/sb5.png",
+      "liked": false
+    },
+    {
+      "id" : 69,
+      "title": "Silver Bracelet 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/silver/bracelet/sb6.png",
+      "liked": true
+    },
+    {
+      "id" : 70,
+      "title": "Silver Bracelet 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/silver/bracelet/sb7.png",
+      "liked": false
+    },
+    {
+      "id" : 71,
+      "title": "Silver Bracelet 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/bracelet/sb8.png",
+      "liked": true
+    },
+    {
+      "id" : 72,
+      "title": "Silver Bracelet 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/silver/bracelet/sb9.png",
+      "liked": true
+    }
+  ]
+  ,
+  "oxidisedecards":[
+    {
+      "id" : 73,
+      "title": "Oxidised Earing 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/earing/oe1.png",
+      "liked": false
+    },
+    {
+      "id" : 74,
+      "title": "Oxidised Earing 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/earing/oe2.png",
+      "liked": true
+    },
+    {
+      "id" : 75,
+      "title": "Oxidised Earing 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/earing/oe3.png",
+      "liked": false
+    },
+    {
+      "id" : 76,
+      "title": "Oxidised Earing 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/earing/oe4.png",
+      "liked": true
+    },
+    {
+      "id" : 77,
+      "title": "Oxidised Earing 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/earing/oe5.png",
+      "liked": false
+    },
+    {
+      "id" : 78,
+      "title": "Oxidised Earing 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/earing/oe6.png",
+      "liked": true
+    },
+    {
+      "id" : 79,
+      "title": "Oxidised Earing 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/earing/oe7.png",
+      "liked": false
+    },
+    {
+      "id" : 80,
+      "title": "Oxidised Earing 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/earing/oe8.png",
+      "liked": true
+    },
+    {
+      "id" : 81,
+      "title": "Oxidised Earing 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/earing/oe9.png",
+      "liked": true
+    }
+  ],
+  "oxidisedncards":[
+    {
+      "id" : 82,
+      "title": "Oxidised Necklace 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/necklace/on1.png",
+      "liked": false
+    },
+    {
+      "id" : 83,
+      "title": "Oxidised Necklace 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/necklace/on2.png",
+      "liked": true
+    },
+    {
+      "id" : 84,
+      "title": "Oxidised Necklace 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/necklace/on3.png",
+      "liked": false
+    },
+    {
+      "id" : 85,
+      "title": "Oxidised Necklace 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/necklace/on4.png",
+      "liked": true
+    },
+    {
+      "id" : 86,
+      "title": "Oxidised Necklace 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/necklace/on5.png",
+      "liked": false
+    },
+    {
+      "id" : 87,
+      "title": "Oxidised Necklace 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/necklace/on6.png",
+      "liked": true
+    },
+    {
+      "id" : 88,
+      "title": "Oxidised Necklace 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/necklace/on7.png",
+      "liked": false
+    },
+    {
+      "id" : 89,
+      "title": "Oxidised Necklace 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/necklace/on8.png",
+      "liked": true
+    },
+    {
+      "id" : 90,
+      "title": "Oxidised Necklace 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/necklace/on9.png",
+      "liked": true
+    }
+  ],
+  "oxidisedrcards":[
+    {
+      "id" : 91,
+      "title": "Oxidised Ring 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/ring/or1.png",
+      "liked": false
+    },
+    {
+      "id" : 92,
+      "title": "Oxidised Ring 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/ring/or2.png",
+      "liked": true
+    },
+    {
+      "id" : 93,
+      "title": "Oxidised Ring 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/ring/or3.png",
+      "liked": false
+    },
+    {
+      "id" : 94,
+      "title": "Oxidised Ring 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/ring/or4.png",
+      "liked": true
+    },
+    {
+      "id" : 95,
+      "title": "Oxidised Ring 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/ring/or5.png",
+      "liked": false
+    },
+    {
+      "id" : 96,
+      "title": "Oxidised Ring 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/ring/or6.png",
+      "liked": true
+    },
+    {
+      "id" : 97,
+      "title": "Oxidised Ring 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/ring/or7.png",
+      "liked": false
+    },
+    {
+      "id" : 98,
+      "title": "Oxidised Ring 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/ring/or8.png",
+      "liked": true
+    },
+    {
+      "id" : 99,
+      "title": "Oxidised Ring 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/ring/or9.png",
+      "liked": true
+    }
+  ],
+  "oxidisedbcards":[
+    {
+      "id" : 100,
+      "title": "Oxidised Bracelet 1",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/bracelet/ob1.png",
+      "liked": false
+    },
+    {
+      "id" : 101,
+      "title": "Oxidised Bracelet 2",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/bracelet/ob2.png",
+      "liked": true
+    },
+    {
+      "id" : 102,
+      "title": "Oxidised Bracelet 3",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/bracelet/ob3.png",
+      "liked": false
+    },
+    {
+      "id" : 103,
+      "title": "Oxidised Bracelet 4",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/bracelet/ob4.png",
+      "liked": true
+    },
+    {
+      "id" : 104,
+      "title": "Oxidised Bracelet 5",
+      "price": "$120",
+      "rating": 4,
+      "image": "images/oxidised/bracelet/ob5.png",
+      "liked": false
+    },
+    {
+      "id" : 105,
+      "title": "Oxidised Bracelet 6",
+      "price": "$450",
+      "rating": 5,
+      "image": "images/oxidised/bracelet/ob6.png",
+      "liked": true
+    },
+    {
+      "id" : 106,
+      "title": "Oxidised Bracelet 7",
+      "price": "$80",
+      "rating": 3,
+      "image": "images/oxidised/bracelet/ob7.png",
+      "liked": false
+    },
+    {
+      "id" : 107,
+      "title": "Oxidised Bracelet 8",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/bracelet/ob8.png",
+      "liked": true
+    },
+    {
+      "id" : 108,
+      "title": "Oxidised Bracelet 9",
+      "price": "$150",
+      "rating": 5,
+      "image": "images/oxidised/bracelet/ob9.png",
+      "liked": true
+    }
+  ]
+
+}
